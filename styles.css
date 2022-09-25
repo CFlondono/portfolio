@@ -14,7 +14,7 @@ header{
 h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #42B0A3;
-    font-size: large;
+    font-size: 20;
     font-weight: 300;
 }
 
@@ -30,7 +30,8 @@ h3{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 1.5rem;
     font-weight: 100;
-    color:#808080;
+    color: #42B0A3;
+    /* color:#808080; */
 }
 h4{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -96,7 +97,7 @@ a {
 
 .navbar-links li a {
     text-decoration: none;
-    color: gray;
+    color: #42B0A3;
     padding: 1rem;
     display: block;
 }
@@ -132,26 +133,16 @@ a {
     align-items: flex-end;
     justify-content: flex-end;
     height:fit-content;
-    padding-top: 7%;
+    padding-top: 10%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 5%;
     /* margin: 0; */
 }
-
-.pic1{
+.home_pic{
     display: flex; 
     align-items: flex-end;
-    justify-content: flex-end;
-    width: 700px;;
-    height: auto;
 }
-
-.pic2{
-    display: flex; 
-    align-items: flex-end;
-    justify-content: flex-end;
-    width: 700px;
-    height: auto;
-}
-
 .engineer{
     display: flex; 
     flex-direction: column;
@@ -164,10 +155,15 @@ a {
     display: flex; 
     flex-direction: row;
     flex-wrap: nowrap;
-    width:80px;
+    justify-content: space-between;
+    padding: 2.2%;
+    width:150px;
     margin: auto;
 }
-
+.logo_contact{
+    padding: 4%;
+    margin: auto;
+}
 
 .responsive {
     width: 100%;
@@ -183,7 +179,7 @@ a {
 }
 
 .show-box{
-    background-color: #E9E9E9;
+    background-color: #EDEDED;
     margin-top: 4%;
     margin-left: 4%;
     margin-right: 4%;
@@ -197,7 +193,13 @@ a {
 .foto-site{
     width: 49%;
     margin: 5px;
+    padding-left: 3%;
+    padding-right: 3%;
     align-self: center;
+}
+
+.title{
+    color: #42B0A3;
 }
 
 .description{
@@ -212,22 +214,23 @@ a {
 
 .button {
     border: none;
-    color: white;
+    color: #42B0A3;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
   }
   
 .button1 {
     background-color:#E9E9E9; 
-    color: black; 
+    color: #42B0A3; 
+    font-weight: 300;
     border: 2px solid #42B0A3;
 }
   
@@ -368,6 +371,13 @@ a {
     .cs-banner{
         padding-top: 20%;
     } 
+    .home-container{
+        padding-top: 35%;
+    }
+    .logos_contact{
+        padding-right: 6%;
+        padding-left: 6%;
+    }
 
 
 }
