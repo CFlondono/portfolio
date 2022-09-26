@@ -30,32 +30,20 @@
             </ul>
         </div>
     </nav> 
-    <div class="contact">
-        <h1>Contact Form</h1>
-        <form class="cf">
-          <div class="half left cf">
-            <div>
-                <label>Name</label>
-                <input type="text" id="input-name" placeholder="Name">
+
+    <div class="about">
+            <div class="bg_form">
+                <form action="/action_page.php">
+                    <h2>
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    <label for="lname">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+                    <input type="button" class="button button1" value="submit">
+                    </h2>
+                </form>
             </div>
-            <div>
-                <label>Lastname</label>
-                <input type="text" id="input-name" placeholder="Name">
-            </div>
-            <div>    
-                <label>Email</label>
-                <input type="email" id="input-email" placeholder="Email address">
-            </div>
-            <div>
-                <label>Message</label>
-                <input type="text" id="input-subject" placeholder="Subject">
-                <div class="half right cf">
-                <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
-                </div> 
-            </div> 
-            <div>    
-                <input type="submit" value="Submit" id="input-submit">
-            </div>    
-        </form>   
-    </div>
+    </div>        
 </body>
