@@ -1,7 +1,9 @@
 *{
    box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     padding: 0;
     margin: 0;
@@ -258,7 +260,7 @@ a {
 }
 
 .cs-banner{
-    background-image:url("img/boa_banner.png") ;
+    background-image:url("img/boa_banner.png");
     margin-top: 4%;
     margin-left: 4%;
     margin-right: 4%;
@@ -343,9 +345,6 @@ a {
 
 }
 
-.contact{
-    padding-top: 200px;
-}
 /* form */
 input[type=text], select {
     width: 100%;
@@ -375,8 +374,12 @@ input[type=text], select {
   .bg_form {
     border-radius: 5px;
     background-color: #FAFAFA;
+  }
+
+  .contact{
     padding-top: 10%;
-    
+    padding-left: 30%;
+    padding-right: 30%;
   }
 /* form */
 
@@ -433,10 +436,13 @@ input[type=text], select {
     .logos_contact{
         padding-right: 6%;
         padding-left: 6%;
-    
     }
     .foto-about{
         padding-top: 30%;
-    
+    }
+    .contact{
+        padding-top: 30%;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 }
