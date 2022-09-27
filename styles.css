@@ -375,7 +375,8 @@ input[type=text], select {
   .bg_form {
     border-radius: 5px;
     background-color: #FAFAFA;
-    padding: 20px;
+    padding-top: 10%;
+    
   }
 /* form */
 
